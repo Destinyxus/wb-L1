@@ -9,7 +9,6 @@ func main() {
 	var variable interface{}
 	variable = 42
 
-	// Determine the type of the variable
 	switch v := variable.(type) {
 	case int:
 		fmt.Println("Type: int")
